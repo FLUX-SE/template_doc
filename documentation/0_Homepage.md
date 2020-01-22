@@ -2,7 +2,7 @@
 Then, go to https://github.com/FLUX-SE
 
 # 2. Create repository
-Create a new repository called "<plugin_name>_doc"
+Create a new repository called "PLUGIN_NAME_doc"
 
 # 3. Add mandatory files
 ## Option 1 (recommended) :
