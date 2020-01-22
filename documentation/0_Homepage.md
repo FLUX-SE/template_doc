@@ -98,4 +98,4 @@ In **Source**, select **master branch**
 
 Wait and refresh until the page is ready
 
-![](/include/done.png)
+![](/include/done.PNG)
