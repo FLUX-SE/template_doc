@@ -41,6 +41,14 @@ Add a file named "index.html" containing:
 </head>
 <body>
   <div id="app"></div>
+
+  <!-- Docsify -->
+  <script src="https://unpkg.com/docsify/lib/docsify.min.js"></script>
+
+  <!-- Edit on github plugin -->
+  <script src="https://unpkg.com/docsify-edit-on-github/index.js"></script>
+
+  <!-- Docsify settings -->
   <script>
     window.$docsify = {
       name: 'Flux:: Documentation',
@@ -50,10 +58,25 @@ Add a file named "index.html" containing:
       },
       subMaxLevel: 4,
       homepage: 'documentation/<NAME_OF_THE_HOMEPAGE>.md',
-      auto2top: true
+      auto2top: true,
+      plugins: [
+        EditOnGithubPlugin.create("https://github.com/FLUX-SE/alchemist_doc/blob/master/", null, null)
+      ],
+      footer: {
+        copy: '<span>Flux:: &copy; 2020 | </span>',
+        pre: '<hr/>',
+        style: 'text-align: right;'
+      }
     }
   </script>
-  <script src="https://unpkg.com/docsify/lib/docsify.min.js"></script>
+  
+
+  <!-- Footer plugin -->
+  <script src="https://unpkg.com/docsify-footer-enh/dist/docsify-footer-enh.min.js"></script>
+
+  <!-- Search plugin -->
+  <script src="https://unpkg.com/docsify/lib/plugins/search.min.js"></script>
+
 </body>
 </html>
 ```
