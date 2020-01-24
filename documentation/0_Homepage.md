@@ -63,7 +63,7 @@ Add a file named "index.html" containing:
         EditOnGithubPlugin.create("https://github.com/FLUX-SE/alchemist_doc/blob/master/", null, null)
       ],
       footer: {
-        copy: '<span>Flux:: &copy; 2020 | </span>',
+        copy: '<span>FLUX:: SE &copy; 2020 | </span>',
         pre: '<hr/>',
         style: 'text-align: right;'
       }
